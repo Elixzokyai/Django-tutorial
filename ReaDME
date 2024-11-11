@@ -59,3 +59,15 @@ How to map models to database tables (applying migrations)
 Define the model
 make the migrations ( python manage.py makemigrations )
 apply the migrations ( python manage.py migrate )
+
+
+## object relationships
+defining how different object can interact with one another
+common types relationshios amongst objects
+1. Association
+description : A general relationship where one object uses another, often described as a 'has' relationship
+one object can old reference to another
+
+
+scenario
+- libraries :
