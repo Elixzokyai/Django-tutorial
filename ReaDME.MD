@@ -71,3 +71,11 @@ one object can old reference to another
 
 scenario
 - libraries :
+
+
+## SQL : structured Query language
+The standard language for interacting with realations database
+1. manage and manupulates data stored in tables
+2. 2. SQL supports the CRUD operations
+
+
