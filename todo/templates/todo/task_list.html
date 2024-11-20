@@ -9,11 +9,11 @@
 <h1>ToDO Tasks</h1>
 <a href="{%  url 'task_create'  %}">Add Task</a>
 <ul>
-    {% for task in tasks%}
+   {% for task in tasks%}
         <li>
               {{task.title}}
-            <p>{{ task.completed}}</p>
-            <span>{% if task.completed %} (This is Completed) {% endif %}</span>
+              <p>{{task.completed}}</p>
+                <span>{% if task.completed %} (This is Completed) {% endif %}</span>
             <a type="btn" class="btn btn-warning" href="{% url 'task_update' task.pk %}">Edit</a>
 
             <a type="btn" class="btn btn-danger" href="{% url 'task_delete' task.pk %}">Delete</a>
